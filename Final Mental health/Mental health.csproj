@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A9B586E-085C-4C7E-BB62-79B39556E53E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Login_form</RootNamespace>
+    <AssemblyName>Login_form</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.2.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Downloads\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADHD.Designer.cs">
+      <DependentUpon>ADHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_homepage.Designer.cs">
+      <DependentUpon>Admin_homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_notice.Designer.cs">
+      <DependentUpon>Admin_notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Transaction.Designer.cs">
+      <DependentUpon>Admin_Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anger.Designer.cs">
+      <DependentUpon>Anger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="anxiety.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anxiety.Designer.cs">
+      <DependentUpon>anxiety.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ask a question.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ask a question.Designer.cs">
+      <DependentUpon>Ask a question.cs</DependentUpon>
+    </Compile>
+    <Compile Include="card_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="card_payment.Designer.cs">
+      <DependentUpon>card_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_transaction.Designer.cs">
+      <DependentUpon>Doctor_transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_transaction2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_transaction2.Designer.cs">
+      <DependentUpon>Doctor_transaction2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="online_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="online_payment.Designer.cs">
+      <DependentUpon>online_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="check_feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check_feedback.Designer.cs">
+      <DependentUpon>check_feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="depration_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="depration_info.Designer.cs">
+      <DependentUpon>depration_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_homepage.Designer.cs">
+      <DependentUpon>Doctor_homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doctor_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctor_login.Designer.cs">
+      <DependentUpon>doctor_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doctor_registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctor_registration.Designer.cs">
+      <DependentUpon>doctor_registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doc_notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doc_notice.Designer.cs">
+      <DependentUpon>Doc_notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eating_Disorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eating_Disorder.Designer.cs">
+      <DependentUpon>Eating_Disorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_profile.Designer.cs">
+      <DependentUpon>Edit_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiveFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiveFeedback.Designer.cs">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Information_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information_page.Designer.cs">
+      <DependentUpon>Information_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_option form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_option form.Designer.cs">
+      <DependentUpon>login_option form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Admin.Designer.cs">
+      <DependentUpon>Manage_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_User.Designer.cs">
+      <DependentUpon>Manage_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDoctor.Designer.cs">
+      <DependentUpon>MDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profileupdate_Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profileupdate_Doctor.Designer.cs">
+      <DependentUpon>Profileupdate_Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OCD.Designer.cs">
+      <DependentUpon>OCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panicAttack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panicAttack.Designer.cs">
+      <DependentUpon>panicAttack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panic_Attacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panic_Attacks.Designer.cs">
+      <DependentUpon>Panic_Attacks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTSD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTSD.Designer.cs">
+      <DependentUpon>PTSD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registartion form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registartion form.Designer.cs">
+      <DependentUpon>registartion form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="starting page 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="starting page 1.Designer.cs">
+      <DependentUpon>starting page 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stress.Designer.cs">
+      <DependentUpon>Stress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_chat2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_chat2.Designer.cs">
+      <DependentUpon>User_chat2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_homepage.Designer.cs">
+      <DependentUpon>user_homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Membership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Membership.Designer.cs">
+      <DependentUpon>User_Membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Notice.Designer.cs">
+      <DependentUpon>User_Notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_transaction.Designer.cs">
+      <DependentUpon>user_transaction.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ADHD.resx">
+      <DependentUpon>ADHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_homepage.resx">
+      <DependentUpon>Admin_homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_notice.resx">
+      <DependentUpon>Admin_notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Transaction.resx">
+      <DependentUpon>Admin_Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anger.resx">
+      <DependentUpon>Anger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="anxiety.resx">
+      <DependentUpon>anxiety.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ask a question.resx">
+      <DependentUpon>Ask a question.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="card_payment.resx">
+      <DependentUpon>card_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check_feedback.resx">
+      <DependentUpon>check_feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="depration_info.resx">
+      <DependentUpon>depration_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_homepage.resx">
+      <DependentUpon>Doctor_homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctor_login.resx">
+      <DependentUpon>doctor_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctor_registration.resx">
+      <DependentUpon>doctor_registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_transaction.resx">
+      <DependentUpon>Doctor_transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_transaction2.resx">
+      <DependentUpon>Doctor_transaction2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doc_notice.resx">
+      <DependentUpon>Doc_notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eating_Disorder.resx">
+      <DependentUpon>Eating_Disorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_profile.resx">
+      <DependentUpon>Edit_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiveFeedback.resx">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information_page.resx">
+      <DependentUpon>Information_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_option form.resx">
+      <DependentUpon>login_option form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Admin.resx">
+      <DependentUpon>Manage_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_User.resx">
+      <DependentUpon>Manage_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDoctor.resx">
+      <DependentUpon>MDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="online_payment.resx">
+      <DependentUpon>online_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profileupdate_Doctor.resx">
+      <DependentUpon>Profileupdate_Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OCD.resx">
+      <DependentUpon>OCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panicAttack.resx">
+      <DependentUpon>panicAttack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panic_Attacks.resx">
+      <DependentUpon>Panic_Attacks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PTSD.resx">
+      <DependentUpon>PTSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registartion form.resx">
+      <DependentUpon>registartion form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="starting page 1.resx">
+      <DependentUpon>starting page 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stress.resx">
+      <DependentUpon>Stress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_chat2.resx">
+      <DependentUpon>User_chat2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_homepage.resx">
+      <DependentUpon>user_homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Membership.resx">
+      <DependentUpon>User_Membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Notice.resx">
+      <DependentUpon>User_Notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_transaction.resx">
+      <DependentUpon>user_transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

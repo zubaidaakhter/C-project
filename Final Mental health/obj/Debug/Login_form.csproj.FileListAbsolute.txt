@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\bin\Debug\Login_form.exe.config
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\bin\Debug\Login_form.exe
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\bin\Debug\Login_form.pdb
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.Form1.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.Properties.Resources.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.registartion.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.exe
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.pdb
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.starting_page_1.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.login_option_form.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.Admin_login.resources
+C:\Users\User\OneDrive\Desktop\C#project Folder\Login_form\obj\Debug\Login_form.doctor_login.resources
